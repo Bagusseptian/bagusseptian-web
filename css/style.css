@@ -68,6 +68,7 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section::before
 {
@@ -92,6 +93,7 @@ section img
 section img#moon
 {
     mix-blend-mode: screen;
+    
 }
 section img#mountains_front
 {
@@ -100,6 +102,7 @@ section img#mountains_front
 #text
 {
     position: absolute;
+    right: -345px;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
